@@ -7,7 +7,7 @@ function App() {
 
   const getData = async () => {
     try {
-      const {data} = await axios.get('http://localhost:8000/users')
+      const {data} = await axios.get('https://test-sigma-rouge-71.vercel.app/users')
       console.log(data);
       
       setData(data);
