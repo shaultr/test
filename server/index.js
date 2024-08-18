@@ -9,3 +9,6 @@ app.use('/users', require('./users'));
 
 app.listen(8000, ()=>{console.log('server is running on port 8000');
 })
+
+
+module.exports = app;
